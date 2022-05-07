@@ -1,15 +1,4 @@
 bindkey -v
-bindkey -M vicmd "i" vi-insert
-bindkey -M vicmd "I" vi-insert-bol
-bindkey -M vicmd "b" vi-backward-char
-bindkey -M vicmd "w" vi-forward-char
-bindkey -M vicmd "0" vi-beginning-of-line
-bindkey -M vicmd "$" vi-end-of-line
-bindkey -M vicmd "j" down-line-or-history
-bindkey -M vicmd "k" up-line-or-history
-bindkey -M vicmd "u" undo
-
-bindkey -M vicmd "=" vi-repeat-search
 
 function zle-keymap-select {
 	if [[ ${KEYMAP} == vicmd ]] || [[ $1 = 'block' ]]; then

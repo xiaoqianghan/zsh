@@ -3,6 +3,7 @@ alias la="exa -lh"
 catpb(){
   cat "$1" | pbcopy
 }
+alias t="tmux"
 
 alias cdtmp="cd /var/folders/j2/4ftvc7pj6b59rx9fxbtw3v100000gp/T/"
 alias dk="docker"
@@ -13,7 +14,7 @@ alias lg="lazygit"
 alias glog="git log -p -- filename"
 alias neo="cd /Users/xiaoqianghan/.config/nvim"
 
-alias cdinfra="cd /Users/xiaoqianghan/Repository/infrastructure"
+alias cdinfra="cd /Users/xiaoqianghan/kode/infrastructure"
 alias activeinfra="conda activate infra"
 
 

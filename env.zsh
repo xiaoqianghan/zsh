@@ -1,6 +1,6 @@
 # Golang
-export GOPATH=$HOME/Repository/Go/go
-export GOROOT=$HOME/Repository/Go/go1.17.6
+export GOPATH=$HOME/kode/Go/go
+export GOROOT=$HOME/kode/Go/go1.17.6
 export PATH=${PATH}:${GOROOT}/bin
 export PATH="$PATH:$(go env GOPATH)/bin"
 
